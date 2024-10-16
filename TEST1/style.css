@@ -1,0 +1,13 @@
+.block {
+  width: 150px;
+  height: 150px;
+  background-color: lightgrey; /* Начальный цвет фона */
+  cursor: pointer; /* Курсор указывает, что элемент кликабельный */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.red {
+  background-color: red; /* Цвет фона при активации */
+}
